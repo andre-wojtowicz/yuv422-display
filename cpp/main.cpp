@@ -82,7 +82,7 @@ int main(int argc, char** argv)
     }
     else
     {
-        std::cout << "This program shows frames of a read from stdin YUV movie, in which each line is multiplexed 4:2:2 component video (Cb Y Cr Y...) format." << std::endl << std::endl;
+        std::cout << "This program shows frames of YUV movie (read from stdin), in which each line is multiplexed 4:2:2 component video (Cb Y Cr Y...) format." << std::endl << std::endl;
         std::cout << "Usage:   " << argv[0] << " WIDTH HEIGHT [NUM-IGNORE-LAST-BYTES] [DISPLAY-SCALE]" << std::endl;
         std::cout << "           WIDTH  - width of a frame" << std::endl;
         std::cout << "           HEIGHT - height of a frame" << std::endl;
