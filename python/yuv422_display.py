@@ -74,7 +74,7 @@ if __name__ == "__main__":
             sys.stdin.read(bytes_to_ign)
         
     else:
-        print "This program shows frames of a read from stdin YUV movie, in which each line is multiplexed 4:2:2 component video (Cb Y Cr Y...) format."
+        print "This program shows frames of YUV movie (read from stdin), in which each line is multiplexed 4:2:2 component video (Cb Y Cr Y...) format."
         print ""
         print "Usage:   python -u", sys.argv[0], "WIDTH HEIGHT [NUM-IGNORE-LAST-BYTES] [DISPLAY-SCALE]"
         print "           WIDTH  - width of a frame"
